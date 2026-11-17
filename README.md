@@ -11,8 +11,8 @@ Complete Testbench: Includes a testbench (tb.v) for verification and simulation.
 
 Repository Structure
 Here is a brief description of the files included in this repository:
-dct16_stream_top.v: The top-level module containing the streaming interface.
-dct_stage0_input.v to dct_stage4_y.v: The individual pipeline stages of the transform algorithm.
+fct16_stream_top.v: The top-level module containing the streaming interface.
+fct_stage0_input.v to fct_stage4_y.v: The individual pipeline stages of the transform algorithm.
 fct.xdc: Xilinx Design Constraints file (used for pin mapping and timing constraints).
 tb.v: The Verilog testbench used to simulate and verify the design.
 Tools & Requirements
