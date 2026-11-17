@@ -5,7 +5,7 @@ The design is written in Verilog and is optimized for Basys -3 FPGA board and AS
 
 Features
 Pipelined Architecture: Utilizes a multi-stage pipeline (Stage 0 to Stage 4) to maximize throughput.
-Stream Processing: Includes a top-level streaming interface (dct16_stream_top.v) for continuous data input.
+Stream Processing: Includes a top-level streaming interface (fct16_stream_top.v) for continuous data input.
 Hardware Efficient: Optimized for resource utilization (LUTs, DSPs, Registers).
 Complete Testbench: Includes a testbench (tb.v) for verification and simulation.
 
